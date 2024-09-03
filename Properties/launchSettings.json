@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MyCsharpApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MY_SECRET": "my_local_secret_value"
+      }
+    }
+  }
+}
