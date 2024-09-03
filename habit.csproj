@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include=".github\workflows\dotnet-desktop.yml" />
     <None Include=".github\workflows\dotnet.yml" />
   </ItemGroup>
 
