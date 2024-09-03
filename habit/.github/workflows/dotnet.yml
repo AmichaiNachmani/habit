@@ -25,6 +25,6 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Run the application with secret
-        run: dotnet run --project MyCsharpApp/MyCsharpApp.csproj
+        run: dotnet run --project habit/habit.csproj
         env:
           MY_SECRET: ${{ secrets.MY_SECRET }}
